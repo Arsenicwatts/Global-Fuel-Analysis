@@ -6,9 +6,9 @@ An end-to-end Machine Learning pipeline and interactive web dashboard predicting
 
 Accounting for macroeconomic shocks and geopolitical risk premiums.
 
-<!-- 💡 TIP: Take a screenshot of your running Streamlit app and upload it to your GitHub repo, then replace the image link below with your actual screenshot! -->
+<img src="image_2e1ee0.png" alt="Streamlit App Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
 
-<img src="https://www.google.com/search?q=https://images.unsplash.com/photo-1612550761236-e813928f7271%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1000%26q%3D80" alt="App Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="image_2e1efb.png" alt="Historical Data Analysis Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 </div>
 
@@ -82,8 +82,8 @@ Installation & Execution
 
 1. Clone the repository:
 
-git clone [https://github.com/your-username/global-fuel-prices-forecasting.git](https://github.com/your-username/global-fuel-prices-forecasting.git)
-cd global-fuel-prices-forecasting
+git clone [https://github.com/Arsenicwatts/Global-Fuel-Analysis.git](https://github.com/Arsenicwatts/Global-Fuel-Analysis.git)
+cd Global-Fuel-Analysis
 
 
 2. Install required dependencies:
@@ -100,11 +100,13 @@ The app will automatically open in your default web browser at http://localhost:
 
 📂 Project Structure
 
-📁 global-fuel-prices-forecasting
+📁 Global-Fuel-Analysis
 │
 ├── 📄 app.py                                          # Main Streamlit web application
 ├── 📄 global-fuel-prices-analysis-2026-forecasting.ipynb  # In-depth EDA & Model Training Notebook
 ├── 📄 fuel_prices_1970_2026.csv                       # Historical World Bank commodity dataset
+├── 🖼️ image_2e1ee0.png                                # Streamlit app screenshot
+├── 🖼️ image_2e1efb.png                                # Historical EDA plot screenshot
 └── 📄 README.md                                       # Project documentation
 
 
@@ -116,26 +118,14 @@ Market Forecast: The machine learning model, augmented by our geopolitical tensi
 
 This project was developed as an academic collaborative effort.
 
-Role
+Role                                               Name
 
-Name
+👑 Team Leader                                     Sagun Yadav
+  
+👤 Member                                          Atharva Chauhan
 
-👑 Team Leader
+👤 Member                                          Dhyey Patel
 
-Sagun Yadav
+👤 Member                                          Prasang Verma
 
-👤 Member
-
-Atharva Chauhan
-
-👤 Member
-
-Dhyey Patel
-
-👤 Member
-
-Prasang Verma
-
-👤 Member
-
-Darshan Desale
+👤 Member                                          Darshan Desale
