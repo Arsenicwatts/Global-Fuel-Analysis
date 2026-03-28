@@ -1,68 +1,44 @@
-🛢️ Global Fuel Prices Analysis & 2026 Forecasting (1970 - 2026) 🌍
-📖 Overview
-This project provides a comprehensive Exploratory Data Analysis (EDA) and Machine Learning forecasting model for global crude oil prices. It examines historical petroleum price trends over the last five decades, contextualizes them within major geopolitical and economic events, and utilizes advanced time-series forecasting to predict 2026 price trajectories.
+# 🛢️ Global Fuel Prices Analysis & 2026 Forecasting 🌍
 
-A unique aspect of this analysis is the incorporation of a Geopolitical Risk Premium, which accounts for contemporary supply chain instabilities and tensions in the Middle East.
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange.svg)
+![Pandas](https://img.shields.io/badge/Library-Pandas-150458.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-✨ Key Features
-Historical EDA: Visualizes the impact of major global events on oil prices, including the 1973 Oil Shock, 2008 Financial Crisis, COVID-19 pandemic, and the Russia-Ukraine conflict.
+> **An end-to-end Exploratory Data Analysis (EDA) and Machine Learning forecasting project predicting global petroleum price trajectories through 2026, accounting for macroeconomic shocks and geopolitical risk premiums.**
 
-Geopolitical & Economic Context: Expert breakdowns of OPEC's influence, top global producers vs. consumers, and the drivers of price volatility.
+---
 
-Advanced Feature Engineering: Utilizes temporal features, lagged variables, and rolling averages to capture complex market momentum and seasonality.
+## 📖 Overview
 
-XGBoost Forecasting: Employs an XGBRegressor model to handle the non-linear, shock-prone nature of commodity pricing, outperforming traditional ARIMA models in highly volatile conditions.
+The global fuel market is highly sensitive to geopolitical factors. Recently, shifting geological and geopolitical landscapes—including supply chain instabilities and regional tensions—have heavily impacted the market. 
 
-2026 Predictive Modeling: Generates a forward-looking forecast for 2026, explicitly incorporating simulated risk premiums based on current international tensions.
+This repository houses a comprehensive data science pipeline that analyzes historical petroleum price trends over the last five decades (1970–present) and utilizes state-of-the-art predictive modeling to forecast future prices. By factoring in historical shocks and modern-day "risk premiums," this project provides actionable, data-driven insights into the future of global energy economics.
 
-🛠️ Technologies & Libraries Used
-Python 3.x
+## ✨ Key Features
 
-Data Manipulation: pandas, numpy
+* **📈 Comprehensive EDA:** Visual analysis of historical price trends, overlaying major global events (1973 Oil Shock, 2008 Financial Crisis, COVID-19 drop, Russia-Ukraine conflict).
+* **🧠 Advanced Feature Engineering:** Implementation of time-series specific features, including temporal variables, lagged price indicators, and moving averages to capture market momentum.
+* **🤖 XGBoost Forecasting:** Utilizes an `XGBRegressor` model, specifically chosen for its superior ability to handle the non-linear, shock-prone nature of commodity pricing compared to traditional ARIMA models.
+* **🌍 Geopolitical Risk Integration:** A forward-looking 2026 predictive model that explicitly incorporates simulated risk premiums based on current international tensions and OPEC+ production strategies.
 
-Data Visualization: matplotlib, seaborn
+## 🛠️ Technology Stack
 
-Machine Learning: xgboost, scikit-learn
+* **Language:** Python 3
+* **Data Manipulation:** `pandas`, `numpy`
+* **Machine Learning:** `xgboost`, `scikit-learn`
+* **Data Visualization:** `matplotlib`, `seaborn`
+* **Environment:** Jupyter Notebook
 
-🚀 Getting Started
-Prerequisites
-Ensure you have the required dataset (fuel_prices_1970_2026.csv) downloaded and placed in the same directory as the notebook.
+## 🚀 Getting Started
 
-Installation
-You will need to install the required Python packages. You can do this via pip:
+### Prerequisites
 
-Bash
+Ensure you have Python installed, along with the required libraries. The core dataset (`fuel_prices_1970_2026.csv`) must be located in the root directory.
 
-pip install pandas numpy matplotlib seaborn xgboost scikit-learn
-Running the Project
-Clone this repository or download the .ipynb file.
+### Installation
 
-Open your terminal or command prompt.
-
-Launch Jupyter Notebook or Jupyter Lab:
-
-Bash
-
-jupyter notebook
-Open global-fuel-prices-analysis-2026-forecasting.ipynb and run the cells sequentially.
-
-📊 Notebook Structure
-Expert Analysis: Geopolitics & Fuel Prices
-
-OPEC: Its Role & Member Countries
-
-Global Petroleum Production: Top Producing vs. Consuming Countries
-
-Exploratory Data Analysis (EDA): Visualizing historical trends and shocks.
-
-Machine Learning Forecasting: Data splitting, feature engineering, and training the XGBoost model.
-
-Future Predictions & Discussion: Generating the 2026 forecast and applying the risk premium.
-
-Dataset QA: Common questions regarding data sourcing and methodology.
-
-📈 Key Insights & 2026 Outlook
-The machine learning model, augmented by the geopolitical tension factor, strongly indicates that as long as instability remains within critical oil-producing regions, global supply chains will price in a continuous "Risk Premium." The model anticipates prices fluctuating heavily, potentially surpassing $90-$100 per barrel during acute flare-ups in 2026.
-
-🗄️ Data Source
-The core historical data originates from the World Bank's Open Data initiatives (Commodity Price Data / The Pink Sheet).
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/global-fuel-prices-forecasting.git](https://github.com/your-username/global-fuel-prices-forecasting.git)
+   cd global-fuel-prices-forecasting
