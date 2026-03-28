@@ -4,7 +4,7 @@
 
 An end-to-end Machine Learning pipeline and interactive web dashboard predicting global petroleum price trajectories through 2026.
 
-Accounting for macroeconomic shocks and geopolitical risk premiums.
+Accounting for macroeconomic shocks and geopolitical risk premiums. 
 
 <img src="images/app_preview.png" alt="Streamlit App Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
 
