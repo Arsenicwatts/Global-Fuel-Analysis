@@ -115,9 +115,9 @@ This project was developed as an academic collaborative effort.
 
 👑 Team Leader                               Sagun Yadav
 
-👤 Member                                    Atharva Chauhan
-
 👤 Member                                    Dhyey Patel
+
+👤 Member                                    Atharva Chauhan
 
 👤 Member                                    Prasang Verma
 
