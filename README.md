@@ -61,7 +61,7 @@ This project houses both a comprehensive Data Science Pipeline (Jupyter Notebook
 | **Data Manipulation** | Pandas, NumPy |
 | **Data Visualization** | Plotly, Matplotlib, Seaborn |
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 Prerequisites
 
