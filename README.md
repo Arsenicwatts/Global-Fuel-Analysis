@@ -1,16 +1,42 @@
+<div align="center">
+
 🛢️ Global Fuel Prices Analytics & Interactive Forecasting 🌍
 
-An end-to-end Machine Learning pipeline and interactive web dashboard predicting global petroleum price trajectories through 2026, accounting for macroeconomic shocks and geopolitical risk premiums.
+An end-to-end Machine Learning pipeline and interactive web dashboard predicting global petroleum price trajectories through 2026.
+
+Accounting for macroeconomic shocks and geopolitical risk premiums.
+
+<!-- 💡 TIP: Take a screenshot of your running Streamlit app and upload it to your GitHub repo, then replace the image link below with your actual screenshot! -->
+
+<img src="https://www.google.com/search?q=https://images.unsplash.com/photo-1612550761236-e813928f7271%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1000%26q%3D80" alt="App Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+</div>
+
+📑 Table of Contents
+
+Overview
+
+Key Features
+
+Technology Stack
+
+Getting Started
+
+Project Structure
+
+Key Insights
+
+The Team
 
 📖 Overview
 
 The global fuel market is highly sensitive to geopolitical factors. Recently, shifting geological and geopolitical landscapes—including supply chain instabilities and regional tensions in the Middle East—have heavily impacted the market.
 
-This repository houses both a comprehensive Data Science Pipeline (Jupyter Notebook) and a Fully Fledged Web Application (Streamlit). It analyzes historical petroleum price trends over the last five decades (1970–present) and utilizes state-of-the-art predictive modeling to forecast future prices. By factoring in historical shocks and allowing users to dynamically adjust modern-day "risk premiums," this project provides actionable, data-driven insights into the future of global energy economics.
+This project houses both a comprehensive Data Science Pipeline (Jupyter Notebook) and a Fully Fledged Web Application (Streamlit). It analyzes historical petroleum price trends over the last five decades (1970–present) and utilizes state-of-the-art predictive modeling to forecast future prices. By factoring in historical shocks and allowing users to dynamically adjust modern-day "risk premiums," this project provides actionable, data-driven insights into the future of global energy economics.
 
 ✨ Key Features
 
-🖥️ Interactive Web Dashboard: A beautiful, responsive UI built with Streamlit that allows users to explore the data and model predictions in real-time.
+🖥️ Interactive Web Dashboard: A beautiful, responsive UI built with Streamlit that allows users to explore data and model predictions in real-time.
 
 🌍 Dynamic Geopolitical Risk Simulator: Interactive sidebar sliders allow users to simulate different global scenarios by applying percentage markups to the model's baseline predictions.
 
@@ -22,41 +48,52 @@ This repository houses both a comprehensive Data Science Pipeline (Jupyter Noteb
 
 🛠️ Technology Stack
 
-Language: Python 3
+Category
 
-Web Framework: streamlit
+Tools & Libraries
 
-Machine Learning: xgboost, scikit-learn
+Language
 
-Data Manipulation: pandas, numpy
+Python 3
 
-Data Visualization: plotly, matplotlib, seaborn
+Web Framework
+
+Streamlit
+
+Machine Learning
+
+XGBoost, Scikit-Learn
+
+Data Manipulation
+
+Pandas, NumPy
+
+Data Visualization
+
+Plotly, Matplotlib, Seaborn
 
 🚀 Getting Started
 
 Prerequisites
 
-Ensure you have Python installed. The core dataset (fuel_prices_1970_2026.csv) must be located in the root directory.
+Ensure you have Python installed on your system. The core dataset (fuel_prices_1970_2026.csv) must be located in the root directory.
 
-Installation & Running the App
+Installation & Execution
 
-Clone the repository:
+1. Clone the repository:
 
 git clone [https://github.com/your-username/global-fuel-prices-forecasting.git](https://github.com/your-username/global-fuel-prices-forecasting.git)
 cd global-fuel-prices-forecasting
 
 
-
-Install dependencies:
+2. Install required dependencies:
 
 pip install streamlit pandas numpy xgboost scikit-learn plotly
 
 
-
-Launch the Streamlit App:
+3. Launch the Streamlit App:
 
 streamlit run app.py
-
 
 
 The app will automatically open in your default web browser at http://localhost:8501.
@@ -71,27 +108,34 @@ The app will automatically open in your default web browser at http://localhost:
 └── 📄 README.md                                       # Project documentation
 
 
-
 💡 Key Insights & 2026 Outlook
 
-The machine learning model, augmented by our geopolitical tension factor, strongly indicates that as long as instability remains within critical oil-producing regions, global supply chains will price in a continuous "Risk Premium." The forecast anticipates heavily fluctuating prices, potentially surpassing $90–$100 per barrel during acute macro-economic or geopolitical flare-ups.
+Market Forecast: The machine learning model, augmented by our geopolitical tension factor, strongly indicates that as long as instability remains within critical oil-producing regions, global supply chains will price in a continuous "Risk Premium." The forecast anticipates heavily fluctuating prices, potentially surpassing $90–$100 per barrel during acute macro-economic or geopolitical flare-ups in the approach to 2026.
 
-👨‍💻 Team
+👨‍💻 The Team
 
-Team Leader
+This project was developed as an academic collaborative effort.
 
-Sagun Yadav - Connect on LinkedIn
+Role
 
-Members
+Name
 
-Atharva Chauhan - Connect on LinkedIn
+👑 Team Leader
 
-Dhyey Patel - Connect on LinkedIn
+Sagun Yadav
 
-Prasang Verma - Connect on LinkedIn
+👤 Member
 
-Darshan Desale - Connect on LinkedIn
+Atharva Chauhan
 
-📄 License
+👤 Member
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Dhyey Patel
+
+👤 Member
+
+Prasang Verma
+
+👤 Member
+
+Darshan Desale
