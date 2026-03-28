@@ -33,13 +33,13 @@
 - [Key Insights](#-key-insights--2026-outlook)
 - [The Team](#-the-team)
 
-📖 Overview
+## 📖 Overview
 
 The global fuel market is highly sensitive to geopolitical factors. Recently, shifting geological and geopolitical landscapes—including supply chain instabilities and regional tensions in the Middle East—have heavily impacted the market.
 
 This project houses both a comprehensive Data Science Pipeline (Jupyter Notebook) and a Fully Fledged Web Application (Streamlit). It analyzes historical petroleum price trends over the last five decades (1970–present) and utilizes state-of-the-art predictive modeling to forecast future prices. By factoring in historical shocks and allowing users to dynamically adjust modern-day "risk premiums," this project provides actionable, data-driven insights into the future of global energy economics.
 
-✨ Key Features
+## ✨ Key Features
 
 🖥️ Interactive Web Dashboard: A beautiful, responsive UI built with Streamlit that allows users to explore data and model predictions in real-time.
 
