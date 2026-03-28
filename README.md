@@ -98,8 +98,9 @@ streamlit run app.py
 
 The app will automatically open in your default web browser at http://localhost:8501.
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 📁 Global-Fuel-Analysis
 │
 ├── 📁 images                                          # Folder containing project screenshots
