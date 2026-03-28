@@ -89,7 +89,7 @@ The app will automatically open in your default web browser at http://localhost:
 
 ## 📂 Project Structure
 
-```text
+
 📁 Global-Fuel-Analysis
 │
 ├── 📁 images                                          # Folder containing project screenshots
@@ -101,11 +101,11 @@ The app will automatically open in your default web browser at http://localhost:
 └── 📄 README.md                                       # Project documentation
 
 
-💡 Key Insights & 2026 Outlook
+## 💡 Key Insights & 2026 Outlook
 
 Market Forecast: The machine learning model, augmented by our geopolitical tension factor, strongly indicates that as long as instability remains within critical oil-producing regions, global supply chains will price in a continuous "Risk Premium." The forecast anticipates heavily fluctuating prices, potentially surpassing $90–$100 per barrel during acute macro-economic or geopolitical flare-ups in the approach to 2026.
 
-👨‍💻 The Team
+## 👨‍💻 The Team
 
 This project was developed as an academic collaborative effort.
 
