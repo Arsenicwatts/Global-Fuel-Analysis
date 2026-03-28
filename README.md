@@ -12,21 +12,15 @@ Accounting for macroeconomic shocks and geopolitical risk premiums.
 
 </div>
 
-📑 Table of Contents
+## 📑 Table of Contents
 
-Overview
-
-Key Features
-
-Technology Stack
-
-Getting Started
-
-Project Structure
-
-Key Insights
-
-The Team
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Technology Stack](#️-technology-stack)
+- [Getting Started](#-getting-started)
+- [Project Structure](#-project-structure)
+- [Key Insights](#-key-insights--2026-outlook)
+- [The Team](#-the-team)
 
 📖 Overview
 
