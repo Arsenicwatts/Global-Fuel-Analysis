@@ -46,31 +46,15 @@ This project houses both a comprehensive Data Science Pipeline (Jupyter Notebook
 
 🧠 Advanced Feature Engineering: Implementation of time-series specific features, including temporal variables, lagged price indicators, and moving averages to capture market momentum.
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 
-Category
-
-Tools & Libraries
-
-Language
-
-Python 3
-
-Web Framework
-
-Streamlit
-
-Machine Learning
-
-XGBoost, Scikit-Learn
-
-Data Manipulation
-
-Pandas, NumPy
-
-Data Visualization
-
-Plotly, Matplotlib, Seaborn
+| Category | Tools & Libraries |
+| :--- | :--- |
+| **Language** | Python 3 |
+| **Web Framework** | Streamlit |
+| **Machine Learning** | XGBoost, Scikit-Learn |
+| **Data Manipulation** | Pandas, NumPy |
+| **Data Visualization** | Plotly, Matplotlib, Seaborn |
 
 🚀 Getting Started
 
