@@ -1,16 +1,28 @@
 <div align="center">
 
-🛢️ Global Fuel Prices Analytics & Interactive Forecasting 🌍
+# 🛢️ GLOBAL FUEL PRICES ANALYTICS
+### 🌍 *Interactive Forecasting & Machine Learning Dashboard* 🌍
 
-An end-to-end Machine Learning pipeline and interactive web dashboard predicting global petroleum price trajectories through 2026.
+**An end-to-end ML pipeline predicting petroleum price trajectories through 2026, accounting for macroeconomic shocks and geopolitical risk premiums.**
 
-Accounting for macroeconomic shocks and geopolitical risk premiums. 
+<br>
+
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost-F37626?style=for-the-badge&logo=xgboost&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)
+
+<br>
 
 <img src="images/app_preview.png" alt="Streamlit App Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
 
 <img src="images/historical_analysis.png" alt="Historical Data Analysis Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 </div>
+
+---
+
+## 📑 Table of Contents
 
 ## 📑 Table of Contents
 
