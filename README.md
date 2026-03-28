@@ -6,9 +6,9 @@ An end-to-end Machine Learning pipeline and interactive web dashboard predicting
 
 Accounting for macroeconomic shocks and geopolitical risk premiums.
 
-<img src="image_2e1ee0.png" alt="Streamlit App Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
+<img src="images/app_preview.png" alt="Streamlit App Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
 
-<img src="image_2e1efb.png" alt="Historical Data Analysis Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="images/historical_analysis.png" alt="Historical Data Analysis Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 </div>
 
@@ -102,11 +102,12 @@ The app will automatically open in your default web browser at http://localhost:
 
 📁 Global-Fuel-Analysis
 │
+├── 📁 images                                          # Folder containing project screenshots
+│   ├── 🖼️ app_preview.png                             
+│   └── 🖼️ historical_analysis.png                     
 ├── 📄 app.py                                          # Main Streamlit web application
 ├── 📄 global-fuel-prices-analysis-2026-forecasting.ipynb  # In-depth EDA & Model Training Notebook
 ├── 📄 fuel_prices_1970_2026.csv                       # Historical World Bank commodity dataset
-├── 🖼️ image_2e1ee0.png                                # Streamlit app screenshot
-├── 🖼️ image_2e1efb.png                                # Historical EDA plot screenshot
 └── 📄 README.md                                       # Project documentation
 
 
@@ -118,14 +119,14 @@ Market Forecast: The machine learning model, augmented by our geopolitical tensi
 
 This project was developed as an academic collaborative effort.
 
-Role                                               Name
+  Role                                          Name
 
-👑 Team Leader                                     Sagun Yadav
-  
-👤 Member                                          Atharva Chauhan
+👑 Team Leader                               Sagun Yadav
 
-👤 Member                                          Dhyey Patel
+👤 Member                                    Atharva Chauhan
 
-👤 Member                                          Prasang Verma
+👤 Member                                    Dhyey Patel
 
-👤 Member                                          Darshan Desale
+👤 Member                                    Prasang Verma
+
+👤 Member                                    Darshan Desale
