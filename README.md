@@ -88,7 +88,7 @@ streamlit run app.py
 
 
 The app will automatically open in your default web browser at http://localhost:8501.
-
+<br>
 ## 📂 Project Structure
 
 
